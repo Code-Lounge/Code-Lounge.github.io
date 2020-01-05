@@ -1729,4 +1729,32 @@
   }
 }
 
+.hero {
+  width: 100%;
+  background-image: url("../../assets/images/Bg Shape.png");
+  height: 75vh;
+  background-size: 75vh;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+@media screen and (max-height: 768px) {
+  .hero {
+    height: 85vh;
+    background-size: 85vh;
+  }
+}
+
+.container {
+  padding: 3rem;
+}
+.container.is-fluid {
+  padding: 2rem;
+}
+
+*, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /*# sourceMappingURL=style.css.map */
