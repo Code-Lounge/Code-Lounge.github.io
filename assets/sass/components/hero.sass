@@ -4,7 +4,7 @@
   height: 75vh
   background-size: contain
   background-repeat: no-repeat
-  background-position: top right
+  background-position: calc( 100% + 5vh ) calc(100% - 5vh)
   @media screen and (max-height:  768px)
     height: 85vh
   nav
@@ -27,11 +27,11 @@
       a
         text-decoration: none
         color: white
-        margin: 0 .45em
+        margin: 0 .45rem
         transition: all .3s ease-in-out
         border-bottom: 2px solid transparent
-        font-weight: 500
-        font-size: 16px
+        font-weight: lighter
+        font-size: 1.35rem
         &:hover
           transition: all .3s ease-in-out
           border-bottom: 2px solid white
