@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap");
 @keyframes spinAround {
   from {
     transform: rotate(0deg);
@@ -1733,7 +1734,7 @@
   width: 100%;
   background-image: url("../../assets/images/Bg Shape.png");
   height: 75vh;
-  background-size: 75vh;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -1742,6 +1743,43 @@
     height: 85vh;
     background-size: 85vh;
   }
+}
+.hero nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 128px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.hero nav .brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 256px;
+}
+.hero nav .brand img {
+  height: 64px;
+}
+.hero nav .brand h1 {
+  font-weight: 500;
+}
+.hero nav .links a {
+  text-decoration: none;
+  color: white;
+  margin: 0 0.45em;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 2px solid transparent;
+  font-weight: 500;
+  font-size: 16px;
+}
+.hero nav .links a:hover {
+  transition: all 0.3s ease-in-out;
+  border-bottom: 2px solid white;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
 }
 
 .container {

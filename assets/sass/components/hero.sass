@@ -2,9 +2,36 @@
   width: 100%
   background-image: url("../../assets/images/Bg Shape.png")
   height: 75vh
-  background-size: 75vh
+  background-size: contain
   background-repeat: no-repeat
   background-position: top right
   @media screen and (max-height:  768px)
     height: 85vh
-    background-size: 85vh
+  nav
+    display: flex
+    align-items: center
+    justify-content: space-between
+    max-height: 128px
+    max-width: 1280px
+    margin: 0 auto
+    .brand
+      display: flex
+      align-items: center
+      justify-content: space-between
+      width: 256px
+      img
+        height: 64px
+      h1
+        font-weight: 500
+    .links
+      a
+        text-decoration: none
+        color: white
+        margin: 0 .45em
+        transition: all .3s ease-in-out
+        border-bottom: 2px solid transparent
+        font-weight: 500
+        font-size: 16px
+        &:hover
+          transition: all .3s ease-in-out
+          border-bottom: 2px solid white
