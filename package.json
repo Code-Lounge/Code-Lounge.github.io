@@ -1,0 +1,24 @@
+{
+  "name": "code-lounge.github.io",
+  "version": "1.0.0",
+  "description": "Code-Lounge Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "sass assets/sass/main.sass assets/css/style.css",
+    "css:watch": "npm run css && sass assets/sass/main.sass assets/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Code-Lounge/Code-Lounge.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Code-Lounge/Code-Lounge.github.io/issues"
+  },
+  "homepage": "https://github.com/Code-Lounge/Code-Lounge.github.io#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
