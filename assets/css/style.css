@@ -4,10 +4,10 @@ body {
 }
 
 .container {
-  padding: 3rem;
+  padding: 1.5rem 10rem;
 }
 .container.is-fluid {
-  padding: 2rem;
+  padding: 1rem 5rem;
 }
 
 @keyframes spinAround {
@@ -1759,7 +1759,7 @@ body {
   align-items: center;
   justify-content: space-between;
   max-height: 128px;
-  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
 }
 .hero nav .brand {
@@ -1774,6 +1774,9 @@ body {
 .hero nav .brand h1 {
   font-weight: 500;
   color: #3E3A40;
+}
+.hero nav .links {
+  margin-left: auto;
 }
 .hero nav .links a {
   text-decoration: none;
