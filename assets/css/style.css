@@ -1771,6 +1771,11 @@ body {
   width: 100%;
   margin: 0 auto;
 }
+@media screen and (max-width: 768px) {
+  .hero nav.desktop {
+    display: none;
+  }
+}
 .hero nav .brand {
   display: flex;
   align-items: center;
@@ -1860,6 +1865,11 @@ body {
 }
 
 .desafios #blobChallenge {
+  height: 384px;
+}
+
+.about img {
+  margin: 0 auto;
   height: 384px;
 }
 
