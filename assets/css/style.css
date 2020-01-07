@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900&display=swap");
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -13,9 +13,10 @@ body {
 .heading {
   text-align: center;
   color: #3E3A40;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
   font-size: 28px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.16);
 }
 
 @keyframes spinAround {
@@ -1820,20 +1821,20 @@ body {
 }
 
 .discord .heading--purple {
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
   color: #737BEC;
   font-size: 28px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio .card {
-  background-color: #3E3A40;
+  background-color: #42495B;
   margin: 1rem;
   height: 360px;
   display: flex;
   padding: 0;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-radius: 5px;
 }
 .portfolio .card .stripe {
   align-self: flex-end;
