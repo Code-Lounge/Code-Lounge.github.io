@@ -1793,6 +1793,7 @@ body {
 }
 .hero .call .call--heading {
   color: #3E3A40;
+  font-weight: 500;
 }
 .hero .call .call--text {
   color: #7A839E;
@@ -1808,6 +1809,19 @@ body {
 .hero .call .call--button:hover {
   transition: all 0.15s ease-out;
   background: #4e55c0;
+}
+
+.discord .heading {
+  font-weight: 500;
+  text-align: center;
+  color: #3E3A40;
+  font-size: 28px;
+}
+.discord .heading--purple {
+  font-weight: 500;
+  text-align: center;
+  color: #737BEC;
+  font-size: 28px;
 }
 
 *, html, body {
