@@ -12,11 +12,11 @@ body {
 
 .heading {
   text-align: center;
-  color: #3E3A40;
+  color: #42495B;
   font-weight: 600;
   text-align: center;
   font-size: 28px;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.16);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 @keyframes spinAround {
@@ -1801,7 +1801,7 @@ body {
   border-bottom: 2px solid white;
 }
 .hero .call .call--heading {
-  color: #3E3A40;
+  color: #42495B;
   font-weight: 500;
 }
 .hero .call .call--text {
@@ -1857,6 +1857,10 @@ body {
   color: white;
   font-size: 18px;
   font-weight: 500;
+}
+
+.desafios #blobChallenge {
+  height: 384px;
 }
 
 *, html, body {
