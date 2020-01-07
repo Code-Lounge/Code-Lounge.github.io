@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  padding: 3rem;
+}
+.container.is-fluid {
+  padding: 2rem;
+}
+
 @keyframes spinAround {
   from {
     transform: rotate(0deg);
@@ -1762,6 +1773,7 @@
 }
 .hero nav .brand h1 {
   font-weight: 500;
+  color: #3E3A40;
 }
 .hero nav .links a {
   text-decoration: none;
@@ -1776,16 +1788,23 @@
   transition: all 0.3s ease-in-out;
   border-bottom: 2px solid white;
 }
-
-body {
-  font-family: "Poppins", sans-serif;
+.hero .call .call--heading {
+  color: #3E3A40;
 }
-
-.container {
-  padding: 3rem;
+.hero .call .call--text {
+  color: #7A839E;
 }
-.container.is-fluid {
-  padding: 2rem;
+.hero .call .call--button {
+  text-decoration: none;
+  color: white;
+  background: #737BEC;
+  padding: 1em;
+  border-radius: 2em;
+  transition: all 0.15s ease-in;
+}
+.hero .call .call--button:hover {
+  transition: all 0.15s ease-out;
+  background: #4e55c0;
 }
 
 *, html, body {
