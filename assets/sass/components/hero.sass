@@ -6,7 +6,7 @@
   background-repeat: no-repeat
   background-position: calc( 100% + 5vh ) calc(100% - 5vh)
   @media screen and (max-height:  768px)
-    height: 85vh
+    height: 65vh
   nav
     display: flex
     align-items: center
@@ -14,12 +14,21 @@
     max-height: 128px
     width: 100%
     margin: 0 auto
-    @media screen and ( max-width:  768px)
-      &.desktop
-          display: none
-    @media screen and ( min-width:  768px)
-      &.mobile
-          display: none
+    .burguer
+      display: none
+      .line
+        height: 4px
+        width: 30px
+        margin: 4px
+        background: white
+        border-radius: 4px
+    @media screen and (max-width:  768px)
+      .links
+        display: none
+      .burguer
+        display: block
+        &:hover
+          cursor: pointer
 
     .brand
       display: flex

@@ -6,8 +6,18 @@ body {
 .container {
   padding: 1.5rem 10rem;
 }
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 1.5rem 5rem;
+  }
+}
 .container.is-fluid {
   padding: 1rem 5rem;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 1rem 2.5rem;
+  }
 }
 
 .heading {
@@ -1760,7 +1770,7 @@ body {
 }
 @media screen and (max-height: 768px) {
   .hero {
-    height: 85vh;
+    height: 65vh;
   }
 }
 .hero nav {
@@ -1771,9 +1781,25 @@ body {
   width: 100%;
   margin: 0 auto;
 }
+.hero nav .burguer {
+  display: none;
+}
+.hero nav .burguer .line {
+  height: 4px;
+  width: 30px;
+  margin: 4px;
+  background: white;
+  border-radius: 4px;
+}
 @media screen and (max-width: 768px) {
-  .hero nav.desktop {
+  .hero nav .links {
     display: none;
+  }
+  .hero nav .burguer {
+    display: block;
+  }
+  .hero nav .burguer:hover {
+    cursor: pointer;
   }
 }
 .hero nav .brand {
